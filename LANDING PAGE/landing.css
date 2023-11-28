@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.section1{
+   max-height: 100vh; 
+   color: black;
+}
+.section1 h1{
+    color: midnightblue;
+    font-size: 40px;
+}
+.section1 p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.logo{
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: midnightblue;
+    text-shadow: 2px 3px 2px rgb(2, 46, 46);
+}
+.watchtv{
+    width: 400px;
+    height: 200px;
+}
+.topright .enjoy{
+    width: 466px;
+}
+.section2{
+    padding: 73px;
+}
+.section2 h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+   margin: 12px 2px;
+}
+.c3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ .section3 h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.section3{
+    padding: 73px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: teal;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.font-bold{
+    font-weight: bolder;
+}
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+}
+.start{
+    overflow-x: hidden;
+}
+.text-center{
+    text-align: center;
+}
+.deal{
+color: red;
+text-align: center;
+font-weight: bolder;
+font-size: 25px;
+margin: 12px 0;
+}
+.section4 {
+    width: 80%; 
+    margin-top: 4%; 
+}
+
+.c4 {
+    text-align: center; 
+    padding-top: 50px;
+}
+.section4  h2, ul {
+    margin: 20px 0; 
+}
+.section4 {
+    text-align: left; 
+    margin-bottom: 10px; 
+}
+.section4 h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.btn2{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+    align-self: flex-end;
+}
+.section4{
+    padding: 73px;
+}
+.surman{   
+    height: 500px;
+}
+.space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn3{
+    padding: 25px 50px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: teal;
+    margin-top: 30px;
+}
+.btn2:hover {
+    background-color: #c90e5c;
+}
+.btn3:hover {
+    background-color: blueviolet;
+    box-shadow: 0 0 25px violet , 0 0 25px violet ;
+}
+.btn:hover {
+    background-color: #f8ea21;
+}
+.section4 .dl .dt{
+    font-weight: bolder;
+}
+.box2{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
