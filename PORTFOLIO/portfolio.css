@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #eee;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #333;
+}
+
+.resume {
+  text-align: center;
+}
+
+.contacts {
+  text-align: center;
+}
+
+footer {
+  background-color: lightseagreen;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+
+#about {
+  overflow: hidden;
+}
+
+#about img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+#about p {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
